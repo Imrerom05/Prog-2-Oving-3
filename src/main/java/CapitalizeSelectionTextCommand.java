@@ -1,9 +1,8 @@
-public class WrapSelectionTextCommand extends WrapTextCommand {
-
+public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand {
+    
     private final String selection;
     
-    public WrapSelectionTextCommand(String opening, String end, String selection) {
-        super(opening, end);
+    public CapitalizeSelectionTextCommand(String selection) {
         this.selection = selection;
     }
 
@@ -11,9 +10,8 @@ public class WrapSelectionTextCommand extends WrapTextCommand {
     public String execute(String text) {
         return text.replace(selection, super.execute(selection));
     }
-
+    
     public String getSelection() {
         return selection;
     }
-    
 }

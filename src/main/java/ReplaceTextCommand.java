@@ -1,7 +1,7 @@
 public class ReplaceTextCommand extends TextCommand {
 
-    private final String target;
-    private final String replacement;
+    protected final String target;
+    protected final String replacement;
 
     public ReplaceTextCommand(String target, String replacement) {
         this.target = target;

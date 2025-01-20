@@ -1,11 +1,7 @@
-public class ReplaceFirstTextCommand extends TextCommand {
-
-    private final String target;
-    private final String replacement;
+public class ReplaceFirstTextCommand extends ReplaceTextCommand {
 
     public ReplaceFirstTextCommand(String target, String replacement) {
-        this.target = target;
-        this.replacement = replacement;
+        super(target, replacement);
     }
 
     @Override

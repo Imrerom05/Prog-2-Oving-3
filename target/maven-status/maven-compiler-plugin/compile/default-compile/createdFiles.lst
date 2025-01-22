@@ -1,0 +1,10 @@
+CapitalizeWordsTextCommand.class
+ReplaceFirstTextCommand.class
+CapitalizeTextCommand.class
+TextCommand.class
+WrapTextCommand.class
+WrapSelectionTextCommand.class
+WrapLinesTextCommand.class
+CapitalizeSelectionTextCommand.class
+ReplaceTextCommand.class
+Script.class
